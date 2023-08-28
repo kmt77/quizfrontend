@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+main {
+  /* margin: 1rem 2rem; */
+}
+
+.header {
+  background-color: #fafafa;
+  padding: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_brand a {
+  color: #ff695f;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav_item {
+  /* color: #1e1e1e; */
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  padding: 0 2rem;
+}
+.nav_link {
+  color: #ff695f;
+}
+
+.nav_link:hover {
+  color: #9bdbf8;
+  transition: all 0.3s ease;
+}
+/* Hamburger */
+.hamburger {
+  cursor: pointer;
+}
+
+/* Context from Code Snippet */
+.nav_menu {
+  position: fixed;
+  left: -100%;
+  max-width: 75%;
+  width: 400px;
+  top: 0;
+  transition: 0.3s;
+  background-color: #F7F7F7;
+  height: 100vh;
+  z-index: 999;
+  padding: 2rem 0;
+  font-size: 1.4rem;
+}
+
+
+
+
+.nav_menu.active {
+  left: 0px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 8px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
+.bar_md {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 5px 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #000;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(1px) rotate(45deg);
+  width: 30px;
+}
+
+.hamburger.active .bar_md {
+  display: none;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  width: 30px;
+}
+
+
+/* form */
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  max-width: 90vw;
+  width: 640px;
+  gap: 1.2rem;
+}
+
+.input_field {
+  padding: 0 0.8rem;
+  height: 3rem;
+  border-radius: 0.2rem;
+  border: 1px solid #9bdbf8;
+  font-size: 0.9rem;
+}
+
+.btn {
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  border: 1px solid #ece7e6;
+  background-color: #ff695f;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn:hover {
+  background-color: #03a4ed;
+}
+
+/* Question page */
+
+.form_section {
+  max-width: 90vw;
+  margin: 3rem auto;
+  width: 640px;
+}
+.question {
+  border: 1px solid #9bdbf8;
+  box-shadow: 0px 0px 2px 0px;
+  padding: 2rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fafafa;
+  margin-bottom: 2rem;
+}
+
+.question_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 1.5rem;
+}
+
+.question_title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-right: auto;
+}
+.required_hash {
+  flex-shrink: 0;
+}
+.question_head .points {
+  font-size: 0.8rem;
+  color:#888686;
+  flex-shrink: 0;
+}
+
+.question_options {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding:0 0.5rem;
+}
+
+.question_options label {
+  font-size: 1.1rem;
+  color: #70757a;
+}
+
+.required_hash {
+  color: #ff0000;
+}
+
+/* Score page */
+
+.fa_xmark {
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  color: #D92F25;
+}
+
+.fa-check {
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  color: #1F8E3D;
+}
+
+.score_check {
+  border: 1px solid;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.score_check label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: #000;
+}
+
+.bg_check {
+  background-color: #E6F4EA;
+}
+
+.bg_xmark {
+  background-color: #fce8e6;
+}
+/* total */
+.score_container {
+    margin-bottom: 1rem;
+    border: 1px solid #000;
+    padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 2px 0px;
+  }
+
+  .score_container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #2a2a2a;
+  }
+  .thanks {
+    color: #03a4ed;
+  }
+
+  .score_container em {
+    color: #ff695f;
+  }
+
+  .score_container p {
+    font-size: 1.2rem;
+  }
+
+  .score_container .mark {
+    color: #03a4ed;
+    font-size: 2rem;
+  }
+  .score_container .total {
+     color: #ff695f;
+  }
+
+@media screen and (min-width: 768px) {
+.header {
+  padding: 0.8rem 3rem;
+  align-items: center;
+}
+  .hamburger {
+    display: none;
+  }
+
+  .nav_menu {
+    position: static;
+    height: auto;
+    background: transparent;
+    display: flex;
+    padding: 0;
+    align-items: center;
+  }
+
+  .nav_item {
+    margin-bottom: 0;
+  }
+  
+}

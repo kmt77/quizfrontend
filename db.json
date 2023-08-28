@@ -1,0 +1,284 @@
+[
+  {
+    "difficulty": "easy",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most common type of software?",
+    "answers": [
+      "Application Software",
+      "System Software",
+      "Utility Software"
+    ],
+    "correctAnswer": "Operating System",
+    "points": 1
+  },
+  {
+    "difficulty": "easy",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the purpose of software?",
+    "answers": [
+      "To store data",
+      "To create data",
+      "To delete data"
+    ],
+    "correctAnswer": "To process data",
+    "points": 1
+  },
+  {
+    "difficulty": "easy",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software development language?",
+    "answers": [
+      "Java",
+      "C++",
+      "JavaScript"
+    ],
+    "correctAnswer": "Python",
+    "points": 1
+  },
+  {
+    "difficulty": "easy",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating presentations?",
+    "answers": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Adobe Dreamweaver"
+    ],
+    "correctAnswer": "Microsoft PowerPoint",
+    "points": 4
+  },
+  {
+    "difficulty": "easy",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating webpages?",
+    "answers": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Microsoft PowerPoint"
+    ],
+    "correctAnswer": "Adobe Dreamweaver",
+    "points": 7
+  },
+  {
+    "difficulty": "easy",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating graphics?",
+    "answers": [
+      "Microsoft Word",
+      "Microsoft PowerPoint",
+      "Adobe Illustrator"
+    ],
+    "correctAnswer": "Adobe Photoshop",
+    "points": 2
+  },
+  {
+    "difficulty": "medium",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating databases?",
+    "answers": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Adobe Dreamweaver"
+    ],
+    "correctAnswer": "Microsoft Access",
+    "points": 2
+  },
+  {
+    "difficulty": "medium",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating spreadsheets?",
+    "answers": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Adobe Dreamweaver"
+    ],
+    "correctAnswer": "Microsoft Excel",
+    "points": 19
+  },
+  {
+    "difficulty": "medium",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating 3D models?",
+    "answers": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Adobe Dreamweaver"
+    ],
+    "correctAnswer": "Autodesk Maya",
+    "points": 2
+  },
+  {
+    "difficulty": "hard",
+    "category": "software",
+    "type": "multiple",
+    "question": "What is the most popular software for creating animations?",
+    "answers": [
+      "Microsoft Word",
+      "Adobe Photoshop",
+      "Autodesk Maya"
+    ],
+    "correctAnswer": "Adobe After Effects",
+    "points": 1
+  },
+  {
+    "difficulty": "easy",
+    "category": "science",
+    "type": "multiple",
+    "question": "What is the chemical symbol for water?",
+    "answers": [
+      "H21",
+      "CO2",
+      "O2"
+    ],
+    "correctAnswer": "H2O",
+    "points": 1
+  },
+  {
+    "difficulty": "easy",
+    "category": "geography",
+    "type": "multiple",
+    "question": "What is the capital of France?",
+    "answers": [
+      "London",
+      "Berlin",
+      "Sydney"
+    ],
+    "correctAnswer": "Paris",
+    "points": 1
+  },
+  {
+    "difficulty": "medium",
+    "category": "history",
+    "type": "multiple",
+    "question": "Who was the first President of the United States?",
+    "answers": [
+      "Thomas Jefferson",
+      "Barrack Obama",
+      "Abraham Lincoln"
+    ],
+    "correctAnswer": "George Washington",
+    "points": 2
+  },
+  {
+    "difficulty": "medium",
+    "category": "entertainment",
+    "type": "multiple",
+    "question": "Which actor portrayed the character of Harry Potter in the film series?",
+    "answers": [
+      "Raymond Reddington",
+      "Rupert Grint",
+      "Tom Felton"
+    ],
+    "correctAnswer": "Daniel Radcliffe",
+    "points": 2
+  },
+  {
+    "difficulty": "hard",
+    "category": "literature",
+    "type": "multiple",
+    "question": "Which novel is authored by Leo Tolstoy?",
+    "answers": [
+      "Strong and Hope",
+      "Pride and Prejudice",
+      "To Kill a Mockingbird"
+    ],
+    "correctAnswer": "War and Peace",
+    "points": 3
+  },
+  {
+    "difficulty": "hard",
+    "category": "technology",
+    "type": "multiple",
+    "question": "Who co-founded Apple Inc. alongside Steve Wozniak and Ronald Wayne?",
+    "answers": [
+      "Bill Gates",
+      "Elon Musk",
+      "Robert Kiyosaki"
+    ],
+    "correctAnswer": "Steve Jobs",
+    "points": 3
+  },
+  {
+    "difficulty": "easy",
+    "category": "sports",
+    "type": "multiple",
+    "question": "Which sport does Cristiano Ronaldo play?",
+    "answers": [
+      "Basketball",
+      "Handball",
+      "Tennis"
+    ],
+    "correctAnswer": "Football (Soccer)",
+    "points": 1
+  },
+  {
+    "difficulty": "medium",
+    "category": "music",
+    "type": "multiple",
+    "question": "Which band released the album 'Dark Side of the Moon'?",
+    "answers": [
+      "The Rolling Stones",
+      "The Beatles",
+      "Pinky Fly"
+    ],
+    "correctAnswer": "Pink Floyd",
+    "points": 2
+  },
+  {
+    "difficulty": "easy",
+    "category": "general knowledge",
+    "type": "multiple",
+    "question": "What is the currency of Japan?",
+    "answers": [
+      "Yuan",
+      "Euro",
+      "Ghs"
+    ],
+    "correctAnswer": "Yen",
+    "points": 1
+  },
+  {
+    "difficulty": "hard",
+    "category": "science",
+    "type": "multiple",
+    "question": "What is the chemical symbol for gold?",
+    "answers": [
+      "Ai",
+      "Ag",
+      "Gd"
+    ],
+    "correctAnswer": "Au",
+    "points": 3
+  },
+  {
+    "difficulty": "easy",
+    "category": "general",
+    "type": "boolean",
+    "answers": [
+      true
+    ],
+    "question": "The Earth is flat.",
+    "correctAnswer": false,
+    "points": 1
+  },
+  {
+    "difficulty": "easy",
+    "category": "general",
+    "type": "boolean",
+    "answers": [
+      true
+    ],
+    "question": "The film 'Avatar' was directed by Christopher Nolan.",
+    "correctAnswer": false,
+    "points": 3
+  }
+]

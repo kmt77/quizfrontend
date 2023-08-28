@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Vite App</title>
+</head>
+
+<body>
+  <header class="header">
+    <!-- Brand -->
+    <div class="nav_brand">
+      <a href="./index.html">Kmtec Ltd</a>
+    </div>
+
+    <nav class="navbar">
+      <!-- Nav Menu -->
+      <ul class="nav_menu">
+        <li class="nav_item"><a href="./index.html" class="nav_link">Quiz</a></li>
+        <li class="nav_item"><a href="./score.html" class="nav_link">Last Result</a></li>
+      </ul>
+
+      <!-- Hamburger -->
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar_md"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <form class="form_container" id="generate_form">
+      <input type="text" class="input_field" id="topic" placeholder="Type or paste topic to generate questions"
+        required>
+      <select name="quantity" class="input_field" id="number_select" required>
+        <!-- generate -->
+        <option value="10" disabled selected>Number of questions</option>
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="30">30</option>
+      </select>
+      <select name="type" class="input_field" id="type_select" required>
+        <option value="multiple" disabled selected>Type of questions</option>
+        <option value="multiple">Multiple Choice</option>
+        <option value="boolean">True or False</option>
+      </select>
+      <select name="difficulty" class="input_field" id="difficulty_select" required>
+        <option value="easy" disabled selected>Select Defficulty</option>
+        <option value="easy">Easy</option>
+        <option value="medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+      <button href="" class="btn">
+        Generate
+      </button>
+    </form>
+  </main>
+  <!-- difficulty -->
+
+  <script type="module" src="./main.js"></script>
+  <script type="module" src="./generate.js"></script>
+</body>
+
+</html>
